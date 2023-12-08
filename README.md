@@ -29,15 +29,15 @@ This Express.js API provides endpoints for managing users, including CRUD operat
 ## API Endpoints 
 
 
-#### Get All Users
+1. Get All Users
 ### GET /users
 
 
-#### Get User by ID
+2. Get User by ID
 ### GET /users/:id
 
 
-#### Create User
+3. Create User
 ### POST users
 
     Body:
@@ -51,7 +51,7 @@ This Express.js API provides endpoints for managing users, including CRUD operat
     }
 
     
-#### Update User by ID
+4. Update User by ID
 #### PATCH users/:id
 
 
@@ -65,7 +65,6 @@ This Express.js API provides endpoints for managing users, including CRUD operat
     }
 
 
-    
-#### Delete User by ID
+5. Delete User by ID
 ### DELETE users/:id
 
